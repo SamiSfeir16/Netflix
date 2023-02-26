@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Colombia: Ve series online, ve películas online</title>
+    <link rel="shortcut icon" href="img/netflix_logo_icon_170919.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--Preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="header-barra">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    
+                </div>
+
+                <nav class="nav-opciones">
+
+                    <div class="lenguaje">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world"
+                                width="16" height="16" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                                <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                                <path d="M11.5 3a17 17 0 0 0 0 18" />
+                                <path d="M12.5 3a17 17 0 0 1 0 18" />
+                            </svg>
+                            Español
+                            <img class="btn-down" src="img/down-icon.png" alt="Imagen Boton">
+                        </p>
+                    </div>
+
+                    <a href="login.html">
+                        <p class="iniciar-sesion">Iniciar sesión</p>
+                    </a>
+                </nav>
+
+            </div> <!--.header-barra-->
+
+            <div class="header-texto">
+
+                <div class="contenedor-titulo">
+                    <h1>Películas y series ilimitadas y mucho más</h1>
+                </div>
+
+                <p class="descripcion">Disfruta donde quieras. Cancela cuando quieras.</p>
+
+                <div class="contenedor-sugerencia">
+                    <p class="sugerencia"> ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o
+                        reiniciar
+                        tu membresía de Netflix.</p>
+                </div>
+
+
+                <form class="header-formulario">
+
+                    <input type="email" placeholder="Email">
+
+                    <a href="#">
+                        <p>
+                            Comenzar
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                                width="16" height="16" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                        </p>
+                    </a>
+
+                </form>
+
+            </div> <!--.header-texto-->
+    </header>
+
+
+    <div class="features">
+        <section class="feature-1 border-bottom">
+            <div class="contenedor feature-flex">
+                <div class="texto-feature texto-feature-1">
+                    <h2>Disfruta en tu TV</h2>
+                    <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+                </div>
+
+                <div class="imagen-feature-1">
+                    <img src="img/feature-1.png" alt="Imagen feature1">
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-2 border-bottom">
+            <div class="contenedor feature-flex">
+                <div class="texto-feature texto-feature-2">
+                    <h2>Descarga tus series para verlas offline</h2>
+                    <p>Guarda tu contenido favorito y tendrás siempre algo para ver.</p>
+                </div>
+
+                <div class="imagen-feature-2">
+                    <img src="img/feature-2.png" alt="Imagen feature2">
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-3 border-bottom">
+            <div class="contenedor feature-flex">
+                <div class="texto-feature texto-feature-3">
+                    <h2>Disfruta donde quieras</h2>
+                    <p>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo adicional.</p>
+                </div>
+
+                <div class="imagen-feature-3">
+                    <img src="img/feature-3.png" alt="Imagen feature3">
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-4 border-bottom">
+            <div class="contenedor feature-flex">
+                <div class="texto-feature texto-feature-4">
+                    <h2>Crea perfiles para niños</h2>
+                    <p>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente
+                        para ellos, sin costo con tu membresía.</p>
+                </div>
+
+                <div class="imagen-feature-4">
+                    <img src="img/feature-4.png" alt="Imagen feature4">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <main class="fyp">
+        <div class="contenedor-acordeon">
+            <h2>Preguntas frecuentes</h2>
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-1" class="btn-acordeon">
+                <label for="btn-acordeon-1">
+                    ¿Qué es Netflix?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y
+                        documentales premiados en casi cualquier pantalla conectada a internet.</p>
+                    <p>Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo
+                        nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!</p>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-2" class="btn-acordeon">
+                <label for="btn-acordeon-2">
+                    ¿Cuánto cuesta Netflix?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por
+                        una tarifa plana mensual. Planes desde $ 16.900 hasta $ 38.900 al mes. Sin costos adicionales ni
+                        contratos.</p>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-3" class="btn-acordeon">
+                <label for="btn-acordeon-3">
+                    ¿Dondé puedo ver Netflix?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Netflix para ver contenido
+                        al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con
+                        conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets,
+                        reproductores multimedia y consolas de juegos.</p>
+                    <p>Además, puedes descargar tus series favoritas con iOS, Android o la app para Windows 10. Con la
+                        función de descarga, puedes ver donde vayas y sin conexión a internet. Lleva Netflix contigo
+                        adonde sea.</p>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-4" class="btn-acordeon">
+                <label for="btn-acordeon-4">
+                    ¿Cómo cancelo?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo
+                        dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.</p>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-5" class="btn-acordeon">
+                <label for="btn-acordeon-5">
+                    ¿Qué puedo ver en Netflix?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados
+                        y más. Todo lo que quieras ver, cuando quieras.</p>
+                </div>
+            </div>
+
+            <div class="acordeon">
+                <input type="radio" name="acordeon" id="btn-acordeon-6" class="btn-acordeon">
+                <label for="btn-acordeon-6">
+                    ¿Es bueno Netflix para los niños?
+                </label>
+                <div class="contenido-acordeon">
+                    <p>La experiencia de Netflix para niños está incluida en la membresía para que los padres tengan el
+                        control mientras los peques disfrutan series y películas familiares en su propio espacio.</p>
+                    <p>Los perfiles para niños incluyen controles parentales protegidos por PIN que te permiten
+                        restringir el contenido que pueden ver los niños en función de la clasificación por edad y
+                        bloquear determinados títulos que no quieras que los niños vean.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="sugerencia-footer border-bottom">
+        <div class="contenedor-sugerencia-footer">
+            <p> ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+        </div>
+
+        <form class="sugerencia-formulario">
+
+            <input type="email" placeholder="Email">
+
+            <a href="#">
+                <p>
+                    Comenzar
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
+                        width="16" height="16" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="9 6 15 12 9 18" />
+                    </svg>
+                </p>
+            </a>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <p class="contacto-telefono-footer">¿Preguntas? Llama al 01 800 917 1564</p>
+            <div class="grid-footer">
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Cuenta</a>
+                <a href="#">Prensa</a>
+                <a href="#">Relaciones con inversionistas</a>
+                <a href="#">Empleo</a>
+                <a href="#">Canjear tarjetas de regalo</a>
+                <a href="#">Comprar tarjetas de regalo</a>
+                <a href="#">Formas de ver</a>
+                <a href="#">Términos de uso</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Preferencias de cookies</a>
+                <a href="#">Información corporativa</a>
+                <a href="#">Contáctanos</a>
+                <a href="#">Prueba de velocidad</a>
+                <a href="#">Avisos legales</a>
+                <a href="#">Solo en Netflix</a>
+            </div>
+
+            <div class="lenguaje">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world"
+                        width="16" height="16" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff"
+                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                        <path d="M11.5 3a17 17 0 0 0 0 18" />
+                        <path d="M12.5 3a17 17 0 0 1 0 18" />
+                    </svg>
+                    Español
+                    <img class="btn-down" src="img/down-icon.png" alt="Imagen Boton">
+                </p>
+            </div>
+
+            <p class="texto-footer">Netflix Colombia</p>
+        </div>
+    </footer>
+</body>
+
+</html>
